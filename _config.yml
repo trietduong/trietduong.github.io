@@ -17,15 +17,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-name: Triet Duong's blog
-title: Triet Duong's blog
+name: Triet Duong
+title: Triet Duong
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog powered by Github and Jekyll Minima theme.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  trietduong93
+github_username:  trietduong
 show_excerpts: true
 # Build settings
 # remote_theme: pages-themes/modernist@v0.2.0
