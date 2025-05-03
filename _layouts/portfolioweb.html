@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div class="portfolioweb">
+
+  {{ content }}
+
+
+  {% if site.paginate %}
+    {% assign portfolioworkwebs = paginator.portfolioworkwebs %}
+  {% else %}
+    {% assign portfolioworkwebs = site.portfolioworkwebs %}
+  {% endif %}
+
+
+  {%- if portfolioworkwebs.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="portfolioworkweb-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <ul class="portfolioworkweb-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for portfolioworkweb in portfolioworkwebs -%}
+      <li>
+        <span class="portfolioworkweb-meta">{{ portfolioworkweb.date | date: date_format }}</span>
+        <h3>
+          <a class="portfolioworkweb-link" href="{{ portfolioworkweb.url | relative_url }}">
+            {{ portfolioworkweb.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ portfolioworkweb.content | truncatewords: 50 }}
+          <a class="excerpt-portfolioworkweb-link" href="{{ portfolioworkweb.url | relative_url }}">Continue reading →</a>
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    {% if site.paginate %}
+      <div class="pager">
+        <ul class="pagination">
+        {%- if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+          <li><div class="current-page">{{ paginator.page }}</div></li>
+        {%- if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+        </ul>
+      </div>
+    {%- endif %}
+
+  {%- endif -%}
+
+</div>
