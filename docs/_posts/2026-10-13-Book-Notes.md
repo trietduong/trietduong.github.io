@@ -38,3 +38,4 @@ My son has been obsessed with Spider-Man since June. After taking him to the Spi
 - **_The Suicide Squad_ (2021):** The first half is amazing, but the second half devolves into typical superhero movie tropes.
 - **_Obsession_ (2025):** The execution is really clunky. The film is okay, but definitely overhyped.
 - **_Everything Everywhere All at Once_ (2022):** Super creative and unhinged—easily the most artistic film I’ve seen in a while. On the other hand, the underlying plot feels pretty cliché, especially the ending. [This Reddit review](https://www.reddit.com/r/TrueFilm/comments/ux19fh/the_disappointment_of_everything_everywhere_all/) really resonates with my thoughts on it.
+- **_The Substance_ (2024):** : Amazing, though it could have been slightly shorter. The acting was fantastic, and the visual direction was executed perfectly.
