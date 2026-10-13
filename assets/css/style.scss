@@ -5,3 +5,16 @@
 header {
   display: none;
 }
+:root {
+  --header-primary: #d84e85;
+}
+
+.post-content {
+  h3 {
+    color: var(--header-primary);
+  }
+
+  h4 {
+    font-weight: bold;
+  }
+}
