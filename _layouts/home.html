@@ -29,7 +29,7 @@ layout: default
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.content | truncatewords: 50 }}
+          {{ post.excerpt }}
           <a class="excerpt-post-link" href="{{ post.url | relative_url }}">Continue reading →</a>
         {%- endif -%}
       </li>
