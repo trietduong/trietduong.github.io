@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Media Log 001: Refactoring UI + Quick Media Notes"
+title:  "Log 001: Refactoring UI + Quick Media Notes"
 date:   2026-10-13 11:00:00 -0500
 categories: design, books, movies
 published: true
