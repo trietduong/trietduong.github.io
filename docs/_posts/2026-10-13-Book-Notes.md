@@ -12,6 +12,7 @@ published: true
 * **Prioritize visual hierarchy:** A clear visual hierarchy is the single most important element of an effective interface design.
 * **Embrace whitespace early:** Start with more whitespace than you think you need; it is far easier to remove excess room later than it is to squeeze it in after the layout is crowded.
 * **Build a design system upfront:** Establishing a design system at the beginning saves significant time and eliminates repetitive decision-making down the road.
+<!--more-->
 * **Be intentional with sizing units:** Make deliberate choices between relative sizing (grids, percentages, `em`/`rem`) and absolute constraints (fixed pixel scales, `max-width`) depending on the context.
 * **Use systematic color palettes:** The book serves as an excellent practical framework for building and applying cohesive, functional color systems.
 
