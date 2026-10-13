@@ -1,7 +1,20 @@
----
----
 @import "minima";
 
 header {
   display: none;
+}
+/* Global Post Heading Styles */
+:root {
+  --header-primary: #f884b2;    /* Change to adjust all h3 / primary headings */
+}
+
+/* Scoped specifically to post content so your site nav/header isn't affected */
+.post-content {
+  h3 {
+    color: var(--header-primary);
+  }
+
+  h4 {
+    font-weight: bold;
+  }
 }

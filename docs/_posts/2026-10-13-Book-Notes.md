@@ -2,26 +2,11 @@
 layout: post
 title:  "Media Log 001: Refactoring UI + Quick Media Notes"
 date:   2026-10-13 11:00:00 -0500
-categories: misc
+categories: design, books, movies
 published: true
 ---
 
-<style>
-  :root {
-    --header-primary: #f884b2;    /* Change main section header color here */
-    --header-secondary: #8ea8fd;  /* Change subheader color here */
-  }
-
-  .title-primary {
-    color: var(--header-primary);
-  }
-
-  .title-secondary {
-    font-weight: bold;
-  }
-</style>
-
-<h3 class="title-primary">Key Takeaways from <em>Refactoring UI</em></h3>
+### Key Takeaways from *Refactoring UI*
 
 - **Start in grayscale:** Designing without color early on prevents you from getting overwhelmed by stylistic choices and forces you to focus on layout, contrast, and visual balance first.
 - **Prioritize visual hierarchy:** A clear visual hierarchy is the single most important element of an effective interface design.
@@ -33,9 +18,9 @@ published: true
 - **Be intentional with sizing units:** Make deliberate choices between relative sizing (grids, percentages, `em`/`rem`) and absolute constraints (fixed pixel scales, `max-width`) depending on the context.
 - **Use systematic color palettes:** The book serves as an excellent practical framework for building and applying cohesive, functional color systems.
 
-<h3 class="title-primary">Quick Notes on Some Books & Movies I Read/Watched Recently</h3>
+### Quick Notes on Some Books & Movies I Read/Watched Recently
 
-<h4 class="title-secondary">Books</h4>
+#### Books
 
 My son has been obsessed with Spider-Man since June. After taking him to the Spider-Man exhibition at Griffin MSI several times over the summer, those trips ended up piquing my own interest in comic books.
 
@@ -44,7 +29,7 @@ My son has been obsessed with Spider-Man since June. After taking him to the Spi
 - **_Monster_ – Naoki Urasawa:** I love the art style, and the story is really good.
 - **_Blood on the Tracks_ – Shuzo Oshimi:** Best manga I’ve read in a while. Outside of *Death Note*, this is the only manga I could binge in a single sitting. The way it captures a toxic family dynamic feels painfully realistic. It’s also one of the rare series where the manga medium feels uniquely suited to the story.
 
-<h4 class="title-secondary">Movies</h4>
+#### Movies
 
 - **_The Suicide Squad_ (2021):** The first half is amazing, but the second half devolves into typical superhero movie tropes.
 - **_Obsession_ (2025):** The execution is really clunky. The film is okay, but definitely overhyped.
